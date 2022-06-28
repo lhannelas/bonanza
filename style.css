@@ -27,59 +27,99 @@ body {
 /* hero */
 .hero {
   background-color: #f8f8f8;
-  
   width: 100%;
-
-  /* padding-top: 50px;
-  height: 580px; */
-  /* text-align: center; */
 }
-
-/* .card {
-  width: 450px;
-  height: 500px;
-  /* text-align: center; */
-  /* padding: 5px; */
-  /* margin-top: 15px; */
-  /* margin-bottom: 200px; */
-  /* border: 1px solid blue; */
 
 
 .card-img-top {
-  width:100%
-  ;
+  width:600px;
   height:300px;
   
 }
 
-.main {
-  padding-top: 40px;
-  border: 1px solid green;
-  height: 200px;
-}
 
-.liki {
-  border: 1px solid red;
-  height:505px;
-  
-  /* margin-left: 12em; */
-}
 
 /* hero */
 
+
 /* how content */
 .how {
-  margin-top:150px ;
-  
-  border: 1px solid yellow;
+  width: 70%;
 }
 
+@media(max-width:768px) {
+  .how {
+    width: 100%;
+    
+  }
+} 
 /* how content */
-.one {
-  border: 1px solid purple;
-  /* margin-top: 200px; */
+
+
+/* carousel */
+.carou-img {
+  height: 500px;
 }
 
-.btn-liki {
-  border:1px solid red;
+.carou-container {
+ width: 70%;
+ /* margin-top: 30px;
+ margin-bottom: 30px; */
 }
+
+.carou-fluid {
+  background-color: #f8f8f8;
+}
+
+
+@media(max-width:768px) {
+  .carou-container {
+    width: 100%;
+    
+  }
+}    
+    
+.title {
+  margin-bottom: 50px;
+}
+
+/* carousel */
+
+/* association  */
+.asso-container {
+  width: 70%;
+  
+}
+
+@media(max-width:768px) {
+  .asso-container {
+    width: 100%;
+    
+  }
+}
+
+.asso-main {
+  background-color: #f8f8f8;
+}
+
+
+
+/* association  */
+
+
+/* footer */
+.footer-main {
+  background-color: #484848;
+  color: white;
+}
+
+.footer-container {
+  width: 80%;
+}
+
+.blue-title {
+  /* color:#82bddf; */
+  color: #02a95c;
+}
+
+/* footer */
