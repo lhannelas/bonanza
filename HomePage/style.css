@@ -1,0 +1,85 @@
+body {
+  margin: 0 !important;
+  padding-top: 50px;
+}
+
+/* navbar */
+@media(min-width:992px) {
+  .navbar-expand-lg .navbar-collapse {
+    width: 100%;
+    
+  }
+}
+
+.navbar-nav {
+  margin: auto !important;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .nav-container {
+    padding: 16px;
+  }
+
+/* navbar */
+
+
+/* hero */
+.hero {
+  background-color: #f8f8f8;
+  
+  width: 100%;
+
+  /* padding-top: 50px;
+  height: 580px; */
+  /* text-align: center; */
+}
+
+/* .card {
+  width: 450px;
+  height: 500px;
+  /* text-align: center; */
+  /* padding: 5px; */
+  /* margin-top: 15px; */
+  /* margin-bottom: 200px; */
+  /* border: 1px solid blue; */
+
+
+.card-img-top {
+  width:100%
+  ;
+  height:300px;
+  
+}
+
+.main {
+  padding-top: 40px;
+  border: 1px solid green;
+  height: 200px;
+}
+
+.liki {
+  border: 1px solid red;
+  height:505px;
+  
+  /* margin-left: 12em; */
+}
+
+/* hero */
+
+/* how content */
+.how {
+  margin-top:150px ;
+  
+  border: 1px solid yellow;
+}
+
+/* how content */
+.one {
+  border: 1px solid purple;
+  /* margin-top: 200px; */
+}
+
+.btn-liki {
+  border:1px solid red;
+}
