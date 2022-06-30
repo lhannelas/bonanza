@@ -13,7 +13,8 @@ console.log("cart");
         console.log(ProductName);
         let NumTicket = localStorage.getItem('NumTicketKey');
         let SumTicket = localStorage.getItem('SumTicketKey');
-
+        NumTicket = Number(NumTicket);
+        SumTicket = Number(SumTicket);
 
         let table = document.querySelector('sampleTable');
         let row = document.createElement('tr');
@@ -25,6 +26,7 @@ console.log("cart");
 
         let quantity = document.createElement('td');
          quantity.textContent = NumTicket;
+
         row.appendChild(quantity);
         console.log(quantity)
 
@@ -32,7 +34,27 @@ console.log("cart");
          price.textContent = SumTicket;
         row.appendChild(price);
         console.log(price)
-// check table.appendChild(row)
+
         table.appendChild(row);
 
-        console.log(table);
+        let rowLength = document.getElementById('sampleTable').rows.length;
+
+
+        //UpdatingSummary
+         console.log(document.getElementById("NumItems")) ;
+                let NumItems =  document.getElementById("NumItems") ;
+                NumItems.innerText = rowLength ;
+
+         console.log(document.getElementById("TotalCart")) ;
+                let TotalCart =  document.getElementById("TotalCart") ;
+                TotalCart.innerText = rowLength ;
+
+
+
+
+
+
+// check table.appendChild(row)
+//        table.appendChild(row);
+//
+//        console.log(table);
