@@ -17,9 +17,15 @@ body {
   justify-content: space-around;
   }
 
-  .nav-container {
+  /* @media(max-width:768px) {
+    .navbar-brand {
+      width: 35%;
+      
+    }
+  } */
+  /* .nav-container {
     padding: 16px;
-  }
+  } */
 
 /* navbar */
 
@@ -98,9 +104,7 @@ body {
   }
 }
 
-.asso-main {
-  background-color: #f8f8f8;
-}
+
 
 
 
@@ -119,7 +123,42 @@ body {
 
 .blue-title {
   /* color:#82bddf; */
-  color: #02a95c;
+  color: #6fd6ff;
+}
+
+@media(max-width:768px) {
+  .footer-container {
+    width: 100%;
+    
+  }
 }
 
 /* footer */
+
+/* contact */
+.contact-container {
+  width: 70%;
+}
+
+.contact-main {
+  background-color: #f8f8f8;
+}
+
+@media(max-width:768px) {
+  .contact-container {
+    width: 100%;
+    
+  }
+}
+
+/* contact */
+
+/* lottery */
+.main {
+  margin-top:100px ;}
+
+
+
+
+
+/* lottery */
