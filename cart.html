@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>lottery</title>
+    <title>Shoppin Cart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/src/style.css">
     <script src="https://kit.fontawesome.com/4f22b0181c.js" crossorigin="anonymous"></script>
@@ -50,7 +50,7 @@
           <ul class="navbar-nav">
             <li class="nav-item px-3">
               <div class="cart">
-                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a>
                 <div id="cartAmount" class="cartAmount">0</div>
               </div>
             </li>
@@ -58,7 +58,7 @@
               <a class="nav-link" href="#">Sign in</a>
             </li>
             <li class="nav-item px-3">
-              <button class="btn btn-outline-success" type="button">Choose a Lottery</button>
+              <a href="#lottery"><button class="btn btn-outline-success" type="button">Choose a Lottery</button></a>
             </li>
           </ul>
         </div>
@@ -67,29 +67,92 @@
     </nav>
     <!-- navbar -->
     
-    <section class=" text-center container lottery-main">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Choose a Lottery</h1>
-          <p class="lead text-muted">Buy your tickets and get a chance to win any of these amazing gifts!</p>
+    <div class="container-fluid cart-main">
+      <div class="sub-container row ">
+        
+        <div id="shopping-cart" class="shopping-cart col-lg-6 col-md-12">
+          
+           
+          
+        </div>
+        <div id="label" class="label col-lg-6 col-md-12">
+
+         
           
         </div>
       </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div id="shop" class="shop row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                 
-        </div>
-
-      </div>
     </div>
 
-        
     
+    <!-- <div class="cart-item">
+      <img width="100" src=${search.img} alt="" >
     
+      <div class="details">
 
+        <div class="title-price-x">
+          <h4>
+            <p>${search.name}</p>
+            <p>${search.price</p>
+          </h4>
+          <i class="bi bi-x-lg"></i>
+        </div>
+
+        <div class="card-buttons"></div>
+
+        <h3></h3>
+      </div>
+    </div> -->
+
+    <!-- <div id="" class="cart-item col d-flex align-items-start shadow-sm ggt my-5">
+      <img class="ggt" src=${search.img} width="100"></img>
+      <div class=" d-flex">
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Rs100</p>
+        <i class="bi bi-x-lg"></i>
+      </div>
+      <div class="price-quantity">
+        <h4>Rs 100</h4>
+        <div class="buttons">
+          <i onclick="decrement()" class="bi bi-dash-lg"></i>
+          <div id= class="quantity">0</div>
+          <i onclick="increment()" class="bi bi-plus-lg"></i>
+        </div>
+      </div>
+      <p>Rs0</p>
+      
+    </div>` -->
+
+    <!-- <div id="structure" class="col row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 px-5 py-5 pq ">
+      
+      <div id="" class="col d-flex align-items-start shadow-sm ggt my-5">
+        <img class="ggt" src="Pictures/pexels-brett-sayles-3226806.jpg" width="100"></img>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start shadow-sm ggt my-5">
+        <img src="Pictures/pexels-brett-sayles-3226806.jpg" width="100"></img>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start shadow-sm ggt my-5">
+        <img src="Pictures/pexels-brett-sayles-3226806.jpg" width="100"></img>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div> -->
+
+   
+
+      
+      
+    </div>
 
     <!-- Footer -->
     <div class="footer-main container-fluid">
@@ -155,13 +218,13 @@
 
 
 
-
-    <script src="/src/lottery.js" charset="utf-8"></script>
+    <script src="/src/data.js"></script>
+    <script src="/src/cart.js" charset="utf-8"></script>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
    
-   
+
     <!--Do no use this one it interferes with my nav toggler <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>  --> 
 
     
