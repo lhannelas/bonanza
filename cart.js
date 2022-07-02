@@ -27,7 +27,7 @@ let generateCartItems = ()=>{
 
       <div class="cart-item shadow-sm bg-body rounded">
         
-        <img width="200" src=${search.img} alt="" >
+        <img class="rond" width="200" src=${search.img} alt="" >
         
         <div class="details">
 

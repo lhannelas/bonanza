@@ -23,4 +23,5 @@ let shopItemData = [{
   desc2: "Surround Cooling",
   desc3: "Fast Cooling system",
   img: "Pictures/pexels-max-vakhtbovych-6758518.jpg"
-}]
+},
+]

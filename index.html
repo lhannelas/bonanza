@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4f22b0181c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top  navbar-expand-lg shadow-sm bg-white">
+    <nav class="navbar fixed-top  navbar-expand-lg bg-white">
       <div class="container-fluid nav-container">
         
         <!-- left -->        
@@ -21,16 +21,7 @@
             <li class="nav-item px-3">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <li class="nav-item px-3 dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Our Story</a></li>
-                <li><a class="dropdown-item" href="#">Our Sponsors</a></li>
-                <li><a class="dropdown-item" href="#">NGOs we helped</a></li>
-              </ul>
-            </li>
+            
             <li class="nav-item px-3">
               <a class="nav-link" href="#How_it_works">How it works</a>
             </li>
@@ -55,7 +46,7 @@
               </div>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Sign in</a>
+              <a class="nav-link" href="signIn.html">Sign in</a>
             </li>
             <li class="nav-item px-3">
               <a href="#lottery"><button class="btn btn-outline-success" type="button">Choose a Lottery</button></a>
@@ -77,7 +68,7 @@
             <div class="card-body">
               <h4 class="display-8 fw-bold card-title">L'Etoile du Berger</h4><br>
               <p class="card-text">L'Etoile du Berger est une nouvelle association pour la rehabilitation des enfants en difficulté. Notre Centre se trouve a Albion, ou 11 enfants sont pris en charge.</p>
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="https://defimedia.info/gilbert-lebreux-directeur-fondateur-de-long-etoile-du-berger-le-social-comme-vocation-de-la-banque-travailleur-social" class="btn btn-primary">Learn more</a>
             </div>
           </div>
 
@@ -102,8 +93,8 @@
         
         <!-- left -->
         <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+          <div class="d-inline-flex align-items-center justify-content-center bg-gradient text-dark fs-2 mb-3">
+            <i class="bi bi-box-arrow-in-up-left"></i>
           </div>
           <h4>Choose a Lottery</h4>
           <ul>
@@ -116,8 +107,8 @@
 
         <!-- middle -->
         <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+            <i class="bi bi-arrow-through-heart"></i>
           </div>
           <h4>NGOs</h4>
           <p>Our mission is to raise fund and awareness for NGOs. Therefore during a time period, one NGO will be put in light and the fund collected will be directed to them. </p>
@@ -126,8 +117,8 @@
 
         <!-- right -->
         <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+            <i class="bi bi-trophy"></i>
           </div>
           <h4>You Win</h4>
           <p>"The more you give, the more you get." This quote has never been so true! By playing our lottery and spreading the word, you will:</p>
@@ -223,7 +214,7 @@
 
           <!-- Form submit button -->
           <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+            <button class="form btn btn-lg" type="submit">Submit</button>
           </div>
 
         </form>
@@ -297,8 +288,8 @@
 
 
 
-    <script src="/src/data.js"></script>
-    <script src="/src/lottery.js" charset="utf-8"></script>
+    <script src="data.js"></script>
+    <script src="lottery.js" charset="utf-8"></script>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

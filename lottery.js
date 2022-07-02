@@ -97,4 +97,22 @@ let calculation =()=>{
 }
 
 calculation();
-  
+
+
+const nav = document.querySelector('nav');
+console.log(nav);
+
+window.addEventListener("scroll", function()  {
+    const offset = window.pageYOffset;
+
+    if(offset > 30) {
+      nav.classList.add("scroll")
+
+    }
+    else {
+      nav.classList.remove("scroll")
+    }
+
+});
+
+
