@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4f22b0181c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lilita+One&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
     
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top  navbar-expand-lg bg-white">
+    <nav class="navbar fixed-top  navbar-expand-lg ">
       <div class="container-fluid nav-container">
         
         <!-- left -->        
         <div class="collapse navbar-collapse order-lg-1 order-3 navigation-menu" >
-          <ul class="navbar-nav">
-            <li class="nav-item px-3">
+          <ul class="navbar-nav  ">
+            <li class="nav-item  px-3">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             
@@ -30,7 +35,7 @@
         <!-- left -->
 
         <a class="navbar-brand order-1 mr-lg-0" href="#">
-          <img src="Pictures/bonanza1.png" alt="" width="100"">
+          <img src="Pictures/bonanza (1).png" alt="" width="100"">
         </a>
         <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target=".navigation-menu" >
           <span class="navbar-toggler-icon"></span>
@@ -49,7 +54,7 @@
               <a class="nav-link" href="signIn.html">Sign in</a>
             </li>
             <li class="nav-item px-3">
-              <a href="#lottery"><button class="btn btn-outline-success" type="button">Choose a Lottery</button></a>
+              <a href="#lottery"><button class="btn btn-style-green " type="button">Choose a Lottery</button></a>
             </li>
           </ul>
         </div>
@@ -59,81 +64,82 @@
     <!-- navbar -->
     
     <!-- hero -->
-      
-    <div class="hero container-fluid">
-      <div class="container-fluid col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 right shadow-sm p-2 mb-5 bg-body rounded">
-            <img src="/Pictures/pexels-archie-binamira-754769.jpg" class="d-block mx-lg-auto img-fluid card-img-top round" alt="photo of kids"  >
-            <div class="card-body">
-              <h4 class="display-8 fw-bold card-title">L'Etoile du Berger</h4><br>
+    <div class=" hero-main container-fluid">
+      <div class="row ">
+        <div class="left-hero col-lg-6 col-md-12 col-sm-12  ">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Play to help!</h1>
+          <p class="lead">Help society and get a chance to win  one of  our amazing gifts!<br> The more you contribute, the more you help and the better chance <br> you have at winning. We believe in a world where everybody wins. </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#lottery"><button type="button" class="btn btn-style-blue btn-lg px-4 me-md-2">Choose a lottery</button></a>
+          </div>
+        </div>
+
+        <div class="right-hero col-lg-6 col-md-12 col-sm-12  ">
+          <div class="card card-back shadow-sm p-2 mb-5 rounded " style="width: 25rem;">
+            <img src="/Pictures/pexels-katerina-holmes-5905918.jpg" class="card-img-top" alt="...">
+            <div class="card-body " >
+              <h5 class="card-title">L'Etoile du Berger</h5>
               <p class="card-text">L'Etoile du Berger est une nouvelle association pour la rehabilitation des enfants en difficulté. Notre Centre se trouve a Albion, ou 11 enfants sont pris en charge.</p>
-              <a href="https://defimedia.info/gilbert-lebreux-directeur-fondateur-de-long-etoile-du-berger-le-social-comme-vocation-de-la-banque-travailleur-social" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-style-blue">Learn More</a>
             </div>
           </div>
-
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Play to help!</h1>
-            <p class="lead">Participate in any lottery and help raise money for an association!</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="#lottery"><button type="button" class="btn btn-success btn-lg px-4 me-md-2">Choose a lottery</button></a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
+    
     <!-- hero -->
     
  
     <!-- How it Works -->
-    <div class="how container px-4 py-5" id="featured-3">
-      <h2 id="How_it_works" class="pb-2 border-bottom">How it works</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        
-        <!-- left -->
-        <div class="feature col">
-          <div class="d-inline-flex align-items-center justify-content-center bg-gradient text-dark fs-2 mb-3">
-            <i class="bi bi-box-arrow-in-up-left"></i>
+    <div class="how-main container-fluid">
+      <div class="how container px-4 py-5" id="featured-3">
+        <h2 id="How_it_works" class="pb-2 border-bottom">How it works</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          
+          <!-- left -->
+          <div class="feature col">
+            <div class="d-inline-flex align-items-center justify-content-center bg-gradient text-dark fs-2 mb-3">
+              <i class="bi bi-box-arrow-in-up-left"></i>
+            </div>
+            <h4>Choose a Lottery</h4>
+            <ul>
+              <li>Pick an item that you want to win.</li>
+              <li>Buy a lottery ticket. You can buy as many tickets as you want.</li>
+              <li>There will be a draw on the date specified and the winner will be contacted.</li>
+            </ul>        
           </div>
-          <h4>Choose a Lottery</h4>
-          <ul>
-            <li>Pick an item that you want to win.</li>
-            <li>Buy a lottery ticket. You can buy as many tickets as you want.</li>
-            <li>There will be a draw on the date specified and the winner will be contacted.</li>
-          </ul>        
-        </div>
-        <!-- left -->
+          <!-- left -->
 
-        <!-- middle -->
-        <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-            <i class="bi bi-arrow-through-heart"></i>
+          <!-- middle -->
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              <i class="bi bi-arrow-through-heart"></i>
+            </div>
+            <h4>NGOs</h4>
+            <p>Our mission is to raise fund and awareness for NGOs. Therefore during a time period, one NGO will be put in light and the fund collected will be directed to them. </p>
           </div>
-          <h4>NGOs</h4>
-          <p>Our mission is to raise fund and awareness for NGOs. Therefore during a time period, one NGO will be put in light and the fund collected will be directed to them. </p>
-        </div>
-        <!-- middle -->
+          <!-- middle -->
 
-        <!-- right -->
-        <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-            <i class="bi bi-trophy"></i>
+          <!-- right -->
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              <i class="bi bi-trophy"></i>
+            </div>
+            <h4>You Win</h4>
+            <p>"The more you give, the more you get." This quote has never been so true! By playing our lottery and spreading the word, you will:</p>
+            <ul>
+              <li>Help people in need and society as whole.</li>
+              <li>Have the chance to win amazing gifts.</li>
+              <li>Give us the possibility to propose even more formidable gifts for you to win.</li>
+            </ul>
           </div>
-          <h4>You Win</h4>
-          <p>"The more you give, the more you get." This quote has never been so true! By playing our lottery and spreading the word, you will:</p>
-          <ul>
-            <li>Help people in need and society as whole.</li>
-            <li>Have the chance to win amazing gifts.</li>
-            <li>Give us the possibility to propose even more formidable gifts for you to win.</li>
-          </ul>
+          <!-- right -->
         </div>
-        <!-- right -->
       </div>
     </div>
     <!-- How it works -->
 
-    <!-- Carousel -->
+    <!-- Lottery -->
     <div class="container  carou-container">
       <h2 id="lottery" class="title pb-2  border-bottom">Lottery</h2>
 
@@ -150,33 +156,35 @@
 
     
 
-    <!-- carousel -->
+    <!-- Lottery -->
 
     <!-- Associations you helped -->
     <!-- <div class="asso-main container-fluid"> -->
-      <div class="asso-container container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Your achievement</h2>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-          <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-              <h4>Breast Cancer Care</h4>
-              <p class="lead">Fund Raised : Rs 500,000</p>
+      <div class="asso-main container-fluid"> 
+        <div class="asso-container container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">Your achievement</h2>
+          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="asso me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class=" my-3 p-3">
+                <h4>Breast Cancer Care</h4>
+                <p class="lead">Fund Raised : Rs 500,000</p>
+              </div>
+              <div class="bg-body shadow-sm mx-auto" style="width: 400px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="pictures/rsz_istockphoto-661330304-612x612.jpg" alt="">
+              </div>
             </div>
-            <div class="bg-body shadow-sm mx-auto" style="width: 400px; height: 300px; border-radius: 21px 21px 0 0;">
-              <img src="pictures/rsz_istockphoto-661330304-612x612.jpg" alt="">
+            <div class="asso me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class="my-3 py-3">
+                <h4>Amnesty International</h4>
+                <p class="lead">Fund Raised : Rs 400,000</p>
+              </div>
+              <div class=" bg-body shadow-sm mx-auto" style="width: 400px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="pictures/rsz_amnesty.png" alt="">
+              </div>
             </div>
           </div>
-          <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 py-3">
-              <h4>Amnesty International</h4>
-              <p class="lead">Fund Raised : Rs 400,000</p>
-            </div>
-            <div class=" bg-body shadow-sm mx-auto" style="width: 400px; height: 300px; border-radius: 21px 21px 0 0;">
-              <img src="pictures/rsz_amnesty.png" alt="">
-            </div>
-          </div>
+          
         </div>
-        
       </div>
     <!-- </div> -->
     <!-- Associations you helped -->
@@ -214,7 +222,7 @@
 
           <!-- Form submit button -->
           <div class="d-grid">
-            <button class="form btn btn-lg" type="submit">Submit</button>
+            <button class=" btn btn-style-green" type="submit">Submit</button>
           </div>
 
         </form>
@@ -230,31 +238,23 @@
         <footer class="py-5">
           <div class="row">
             <div class="col-6 col-md-2 mb-3">
-              <img style="width: 150px; padding-right: 20px;" src="Pictures/bonanzafoot.png" alt="">
+              <img style="width: 150px; padding-right: 20px;" src="Pictures/bonanza.png" alt="">
               <!-- <h5 class="blue-title">Bonanza</h5>
               <p>PUT LOGO</p> -->
             </div>
 
             <div class="col-6 col-md-2 mb-3">
               <h5 class="blue-title">Contact</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">Icon and Phone number</li>
-                <li class="nav-item mb-2">Icon and address</li>
-                <li class="nav-item mb-2">Icon and mail</li>
+              <ul class="fa-ul nav flex-column">
+                <li><span class="nav-item mb-2 fa-li"><i class="fa-solid fa-square-phone-flip"></i></span>59832751</li>
+                <li><span class="nav-item mb-2 fa-li"><i class="fa-solid fa-location-dot"></i></span>Adress</li>
+                <li><span class="nav-item mb-2 fa-li"><i class="fa-solid fa-at"></i></span>mail</li>
+                
                 
               </ul>
             </div>
 
-            <div class="col-6 col-md-2 mb-3">
-              <h5 class="blue-title">Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
+            
 
             <div class="col-md-5 offset-md-1 mb-3">
               <form>
@@ -263,7 +263,7 @@
                 <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                   <label for="newsletter1" class="visually-hidden">Email address</label>
                   <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">Subscribe</button>
+                  <button class="btn btn-style-blue" type="button">Subscribe</button>
                 </div>
               </form>
             </div>

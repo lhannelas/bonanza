@@ -58,7 +58,7 @@ let generateCartItems = ()=>{
     label.innerHTML = `
     <h2>Cart is Empty</h2>
     <a href="index.html"> 
-      <button class="btn btn-primary">Back to Home</button>
+      <button class="btn btn-style-blue">Back to Home</button>
     </a>
       `;
   }
@@ -140,7 +140,7 @@ let totalAmount = () => {
     // console.log(amount);
     label.innerHTML = `
     <h2>Total : Rs ${amount} </h2>
-    <button class="btn btn-primary checkout">Checkout</button>
+    <button class="btn btn-style-blue checkout">Checkout</button>
     <button onclick="clearCart()" class="btn btn-danger removeAll">Clear Cart</button>
     `
   }

@@ -36,7 +36,7 @@ let generateShop =()=>{
                       <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
                     </div>
                   </div>
-                  <a href="cart.html"<button class="cart-btn btn btn-primary" type="button">Buy Tickets</button></a>
+                  <a href="cart.html"<button class="cart-btn btn btn-style-green" type="button">Buy Tickets</button></a>
                 </div>
               </div>
             </div>
