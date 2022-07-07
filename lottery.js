@@ -1,15 +1,6 @@
-console.log('Lottery');
-
 let shop = document.getElementById('shop');
 
 console.log(shop);
-
-
-
-
-
-
-
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
@@ -18,11 +9,11 @@ let generateShop =()=>{
     let {id, name,price, desc1, desc2, desc3, img} = x;
     let search = basket.find((x)=>x.id === id) || [];
     return `
-    <div id-product-${id} class="item col">
-              <div class="card shadow-sm">
-                <img class="round" src=${img} alt="">
-                <div class="details">
-                  <h2>${name}</h2>
+    <div id-product-${id} class="cards-wrapper">
+              <div class="card">
+                <img class="card-img-top" src=${img} alt="">
+                <div class="card-body">
+                  <h3>${name}</h3>
                   <ul>
                     <li>${desc1}</li>
                     <li>${desc2}</li>
